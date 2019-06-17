@@ -1,4 +1,4 @@
-package com.example.myapplicationbasic.view;
+package com.example.neotech.view;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
@@ -8,15 +8,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.example.myapplicationbasic.R;
+import com.example.neotech.R;
 
-public class RigaImagesView extends PagerAdapter {
+public class TallinnImagesView extends PagerAdapter {
 
     private Context context;
     private LayoutInflater layoutInflater;
-    private Integer[] images = {R.drawable.riga001, R.drawable.riga002, R.drawable.riga003, R.drawable.riga004};
+    private Integer[] images = {R.drawable.tallinn001, R.drawable.tallinn002, R.drawable.tallinn003, R.drawable.tallinn004};
 
-    public RigaImagesView(Context context) {
+    public TallinnImagesView(Context context) {
         this.context = context;
     }
 
@@ -33,8 +33,8 @@ public class RigaImagesView extends PagerAdapter {
     @Override
     public Object instantiateItem(ViewGroup container, final int position) {
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.content_riga_images, null);
-        ImageView imageView = view.findViewById(R.id.imageRigaView);
+        View view = layoutInflater.inflate(R.layout.content_tallinn_images, null);
+        ImageView imageView = view.findViewById(R.id.imageTallinnView);
         imageView.setImageResource(images[position]);
 
         ViewPager vp = (ViewPager) container;

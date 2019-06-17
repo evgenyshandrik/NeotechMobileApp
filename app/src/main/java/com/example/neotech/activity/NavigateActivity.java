@@ -1,4 +1,4 @@
-package com.example.myapplicationbasic.activity;
+package com.example.neotech.activity;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -12,7 +12,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.example.myapplicationbasic.R;
+import com.example.neotech.R;
 
 public class NavigateActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

@@ -1,11 +1,11 @@
-package com.example.myapplicationbasic.activity;
+package com.example.neotech.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 
-import com.example.myapplicationbasic.R;
+import com.example.neotech.R;
 
 public class MainActivity extends AppCompatActivity {
 

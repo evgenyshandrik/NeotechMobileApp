@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplicationbasic">
+    package="com.example.neotech">
 
     <application
         android:allowBackup="true"
@@ -10,35 +10,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.FloridaImagesActivity"
+            android:name="com.example.neotech.activity.FloridaImagesActivity"
             android:label="@string/title_activity_florida_images"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.PeterburgImagesActivity"
+            android:name="com.example.neotech.activity.PeterburgImagesActivity"
             android:label="@string/title_activity_peterburg_images"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.TallinnImagesActivity"
+            android:name="com.example.neotech.activity.TallinnImagesActivity"
             android:label="@string/title_activity_tallinn_images"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.RigaImagesActivity"
+            android:name="com.example.neotech.activity.RigaImagesActivity"
             android:label="@string/title_activity_riga_images"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.MinskImagesActivity"
+            android:name="com.example.neotech.activity.MinskImagesActivity"
             android:label="@string/title_activity_minsk_images"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.OfficesActivity"
+            android:name="com.example.neotech.activity.OfficesActivity"
             android:label="@string/title_activity_offices"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.NavigateActivity"
+            android:name="com.example.neotech.activity.NavigateActivity"
             android:label="@string/title_activity_navigate_activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.example.neotech.activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

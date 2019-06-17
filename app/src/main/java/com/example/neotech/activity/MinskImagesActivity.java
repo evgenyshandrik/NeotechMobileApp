@@ -1,4 +1,4 @@
-package com.example.myapplicationbasic.activity;
+package com.example.neotech.activity;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -6,23 +6,23 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.example.myapplicationbasic.view.PeterburgImagesView;
-import com.example.myapplicationbasic.R;
+import com.example.neotech.view.MinskImagesView;
+import com.example.neotech.R;
 
-public class PeterburgImagesActivity extends AppCompatActivity {
+public class MinskImagesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_peterburg_images);
+        setContentView(R.layout.activity_minsk_images);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ViewPager viewPager = findViewById(R.id.viewPager);
-        PeterburgImagesView peterburgImagesView = new PeterburgImagesView(this);
-        viewPager.setAdapter(peterburgImagesView);
+        MinskImagesView minskImagesView = new MinskImagesView(this);
+        viewPager.setAdapter(minskImagesView);
     }
 
     @Override
@@ -34,4 +34,5 @@ public class PeterburgImagesActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

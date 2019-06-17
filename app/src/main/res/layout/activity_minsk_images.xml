@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
-    tools:context="com.example.myapplicationbasic.activity.MinskImagesActivity">
+    tools:context="com.example.neotech.activity.MinskImagesActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
