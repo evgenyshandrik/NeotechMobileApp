@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplicationbasic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.FloridaImagesActivity"
+            android:label="@string/title_activity_florida_images"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.PeterburgImagesActivity"
+            android:label="@string/title_activity_peterburg_images"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TallinnImagesActivity"
+            android:label="@string/title_activity_tallinn_images"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RigaImagesActivity"
+            android:label="@string/title_activity_riga_images"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MinskImagesActivity"
+            android:label="@string/title_activity_minsk_images"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.OfficesActivity"
+            android:label="@string/title_activity_offices"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.NavigateActivity"
+            android:label="@string/title_activity_navigate_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

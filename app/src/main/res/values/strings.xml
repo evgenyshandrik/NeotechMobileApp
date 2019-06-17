@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NEOTECH DEVELOPMENT</string>
+    <string name="title_activity_navigate_activity">NEOTECH DEVELOPMENT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="generalInfo">Neotech Development is an international software development company
+        with several offices around the world (Tallinn, Estonia | Riga, Latvia |
+        St. Petersburg, Russia | Florida, USA | Minsk, Belarus). We are a team of highly skilled,
+        engaged and passionate about software development IT professionals. Our goal is creating
+        a software product of upmost quality by using cutting-edge technologies and solutions.
+    </string>
+    <string name="title_activity_offices">NEOTECH OFFICES</string>
+    <string name="text_minsk">Our Minsk office is located in the Alexandr Passaz business plaza.
+        Near the office area we have a National Library and Metro station.
+        Infront of the plaza there is free parking.</string>
+    <string name="text_riga">Akmeņu iela 14, Rīga, LV-1048, Latvia
+        Registration number: 40103947559
+        Phone number: +371 6690 1753
+        E-mail: info@neotech.lv</string>
+    <string name="text_tallinn">Our office is located in the heart of Tallinn.
+        From our windows you can see perfect view to historical and unique Old Town.
+        It brings you a feeling of being a part of it.
+        Tallinn office is located in a modern building with own gym on the 4-th floor and
+        a massage armchair right around the corner of the open space you will work at.</string>
+    <string name="text_piter">Our office is located in a historical centre of Saint-Petersburg
+        in Atlantic city plaza. A beautiful and perfect view opens from this building to the
+        Baltic sea and green park of Saint -Petersburg.</string>
+    <string name="text_florida">Our office in Florida located in a modern business plaza with
+        a perfect view to the shore of Atlantic ocean. Near the office there are a lot of different
+        nice places and restaurants.
+    </string>
+    <string name="button">Button</string>
+    <string name="show_images">Show Images</string>
+    <string name="title_activity_minsk_images">MINSK OFFICE</string>
+    <string name="title_activity_riga_images">RIGA OFFICE</string>
+    <string name="title_activity_tallinn_images">TALLINN OFFICE</string>
+    <string name="title_activity_peterburg_images">ST. PETERBURG OFFICE</string>
+    <string name="title_activity_florida_images">FLORIDA OFFICE</string>
+    <string name="title_activity_contacts">OUR CONTACTS</string>
+</resources>
